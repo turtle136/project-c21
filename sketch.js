@@ -53,6 +53,7 @@ function draw() {
     //create edgeSprite 
     if(colorCube.y > 546){
         colorCube.y = 546
+        colorCube.velocityY = 0;
     }
     if(colorCube.y<546){
             colorCube.shapeColor = "white"; 
